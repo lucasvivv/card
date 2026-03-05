@@ -1,3 +1,9 @@
 h1{
-    color:coral;
+    color:rgb(0, 0, 0);
+}
+
+body{
+background-image:
+    url('assests/background_both.svg');
+    background-size: cover;
 }
