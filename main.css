@@ -1,9 +1,83 @@
-h1{
-    color:rgb(0, 0, 0);
+body{
+
+margin:0;
+
+background-image:url('assets/background_both.svg');
+background-size:cover;
+
+
+font-family:"STIX Two Text", serif;
+
+position:relative;
+
 }
 
-body{
-background-image:
-    url('assests/background_both.svg');
-    background-size: cover;
+/* LEFT PANEL */
+
+.sidebar{
+
+width:260px;
+height:100vh;
+
+background-color:rgba(255,255,255,0.25);
+
+padding:40px;
+
+display:flex;
+flex-direction:column;
+
+}
+
+/* SECTIONS */
+
+.section{
+
+margin-bottom:60px;
+
+}
+
+/* LABEL TEXT */
+
+.label{
+
+font-size:14px;
+
+letter-spacing:3px;
+text-transform:uppercase;
+
+margin:0 0 10px 0;
+
+color:#e8e1d4;
+
+}
+
+/* INFO TEXT */
+
+.info{
+
+font-size:16px;
+
+margin:0;
+
+color:#e8e1d4;
+
+}
+
+/* CURSIVE NAME GRAPHIC */
+
+.lucasvgraphic{
+
+position:absolute;
+
+top:50%;
+left:60%;
+
+transform:translate(-50%, -50%);
+
+width:1200px;
+
+opacity:0.9;
+
+pointer-events:none;
+
 }
