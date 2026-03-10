@@ -1,12 +1,11 @@
 body{
 
-margin:0;
+margin: 30px;
 
-background-image:url('assets/background_both.svg');
+background-image:url('assets/background_whiteside.png');
 background-size:cover;
-
-
-font-family:"STIX Two Text", serif;
+/* font-family:"STIX Two Text", serif; */
+  font-family: "IM Fell English SC", serif;
 
 position:relative;
 
@@ -21,7 +20,7 @@ height:100vh;
 
 background-color:rgba(255,255,255,0.25);
 
-padding:40px;
+padding: 40px;
 
 display:flex;
 flex-direction:column;
@@ -40,14 +39,15 @@ margin-bottom:60px;
 
 .label{
 
-font-size:14px;
+font-size:16px;
+font-weight: 900;
 
-letter-spacing:3px;
+letter-spacing:6px;
 text-transform:uppercase;
 
 margin:0 0 10px 0;
 
-color:#e8e1d4;
+color:#646383;
 
 }
 
@@ -56,10 +56,13 @@ color:#e8e1d4;
 .info{
 
 font-size:16px;
+font-weight: 0;
+
+letter-spacing:3px;
 
 margin:0;
 
-color:#e8e1d4;
+color:#646383;
 
 }
 
@@ -69,7 +72,7 @@ color:#e8e1d4;
 
 position:absolute;
 
-top:50%;
+top:55%;
 left:60%;
 
 transform:translate(-50%, -50%);
